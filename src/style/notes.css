@@ -1,0 +1,62 @@
+/* ---------- GLOBAL ---------- */
+body {
+  background-color: #f8f9fa;
+}
+
+.notes-container {
+  max-width: 720px;
+  margin: 2rem auto;
+}
+
+/* ---------- FORM ---------- */
+.note-form {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.note-form label {
+  font-weight: 500;
+}
+
+.note-form button {
+  width: 100%;
+}
+
+/* ---------- NOTES LIST ---------- */
+.note-card {
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.note-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+}
+
+.note-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.note-text {
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.note-date {
+  font-size: 0.75rem;
+  color: #555;
+}
+
+/* ---------- EMPTY STATE ---------- */
+.empty-text {
+  text-align: center;
+  margin-top: 2rem;
+  font-style: italic;
+  color: #6c757d;
+}
