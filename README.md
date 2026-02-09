@@ -1,5 +1,5 @@
 # React + TypeScript + Vite
-## Link to the deployed application: https://notes-creater-6d0q1f8kp-sourabhdohares-projects.vercel.app/
+## Link to the deployed application: https://notes-creater-one.vercel.app/
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
